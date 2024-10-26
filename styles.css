@@ -1,0 +1,167 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+a{
+    text-decoration: none;
+}
+/*header*/
+header
+{ 
+width:100% ;
+height: auto;
+display: flex;
+align-items: center;
+
+font-size: 50px;
+font-weight: 700;
+}
+.img-logo
+{
+    height: 200px;
+    width: 200px;
+}
+
+/*main*/
+.texto-intro
+{
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.cuadro-padre
+{ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.cuadro
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 380px;
+
+
+}
+li
+{   padding-top: 30px;
+    padding-bottom: 30px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+   
+    
+}
+.logo-lis
+{
+    width: 50px;
+    height: 50px;
+
+}
+
+/*footer*/
+footer
+{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    justify-content: center;
+    gap: 30px;
+
+}
+.logo-foot
+{
+    height: 50px;
+    width: 50px;
+
+}
+
+/*PAGE ENTRADAS*/
+.line
+{   width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border-bottom: 1px solid black;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.card-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-controls button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-controls button:hover {
+    background-color: #0056b3;
+}
+
+.card-controls p {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+.img-card
+{
+    width: 200px;
+}
+section
+{   margin-top: 30px;
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.agregar
+{
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: goldenrod;
+    font-weight: 700;
+}
