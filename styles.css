@@ -23,7 +23,14 @@ font-weight: 700;
     height: 200px;
     width: 200px;
 }
-
+main
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*main*/
 .texto-intro
 {
@@ -163,5 +170,10 @@ section
     border: none;
     color: white;
     background-color: goldenrod;
+    font-weight: 700;
+}
+.volver
+{
+    font-size: 18px;
     font-weight: 700;
 }
